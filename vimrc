@@ -15,6 +15,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
+Plugin 'scrooloose/nerdtree'
+Plugin 'bbchung/clighter'
 
 call vundle#end()
 filetype plugin indent on
@@ -35,19 +37,25 @@ let g:easytags_always_enabled = 1
 
 "Easytags settings
 let g:easytags_always_enabled = 1
+
+"NerdTREE settings
+nmap <Tab> :NERDTreeToggle<CR>
+
+"Clighter settings
+let g:clighter_libclang_file = '/usr/lib/llvm-3.6/lib/libclang-3.6.so'
 "==================================================
 
 "Syntax coloring
 set t_Co=256
 syntax on
 set background=dark
+color koehler
 
 "Tab width
 set tabstop=4
 set shiftwidth=4
 
 "Line numbering
-set relativenumber
 set number
 
 "Tab completion in commands
@@ -76,10 +84,8 @@ set history=1000
 set undolevels=1000
 set nobackup
 set noswapfile
-set linebreak
 set wrap
-set textwidth=80
-set breakindent
+set linebreak
 
 map j gj
 map k gk
