@@ -4,7 +4,6 @@ filetype off
 
 "PLUGINS
 "==================================================
-"Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -16,7 +15,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'scrooloose/nerdtree'
-Plugin 'bbchung/clighter'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'tikhomirov/vim-glsl'
 
 call vundle#end()
 filetype plugin indent on
@@ -27,22 +27,24 @@ set ttimeoutlen=50
 let g:airline_theme = 'simple'
 let g:airline_powerline_fonts = 1
 
+"Auto-pairs settings
+let g:AutoPairsShortcutFastWrap='<Nop>' "Fix å
+
 "YouCompleteMe settings
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_min_num_of_chars_for_completion = 99
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 "Vim-easytags settings
 let g:easytags_always_enabled = 1
 
-"Easytags settings
-let g:easytags_always_enabled = 1
-
 "NerdTREE settings
 nmap <Tab> :NERDTreeToggle<CR>
+let g:NERDTreeWinSize = 22
 
-"Clighter settings
-let g:clighter_libclang_file = '/usr/lib/llvm-3.6/lib/libclang-3.6.so'
+"Indent_Guides settings
+set ts=4 sw=4 et
+let g:indent_guides_guide_size = 1
 "==================================================
 
 "Syntax coloring
@@ -62,15 +64,12 @@ set number
 set wildmenu
 
 "Map Ctrl-c to work as Esc
-noremap <C-c> <Esc>
+inoremap <C-c> <Esc>
+inoremap <Esc> <C-c>
 
 "Map semicolon to colon
 noremap ; :
 noremap : :
-
-"Disable mouse
-set mouse=
-set mouse=""
 
 "Show matching parenthesis
 set showmatch
@@ -78,14 +77,28 @@ set showmatch
 "Indentation settings
 set backspace=indent,eol,start
 set autoindent
+set noexpandtab
 
 "Random setting
-set history=1000
-set undolevels=1000
-set nobackup
-set noswapfile
+set history=10000
+set undolevels=10000
+set hidden
+set undofile
+set undodir=/home/erikwallstrom/.vim/undo//
+set backupdir=/home/erikwallstrom/.vim/backup//
+set directory=/home/erikwallstrom/.vim/swap//
 set wrap
 set linebreak
+set mouse=
+
+"GUI settings
+set guioptions-=T "Remove toolbar
+set guioptions-=r "Remove scrollbar
+set guioptions-=L "Remove scrollbar
+set guioptions-=m "Remove menu
+set guifont=Cousine\ for\ Powerline\ 18
+set guiheadroom=0
+set guioptions-=e
 
 map j gj
 map k gk
