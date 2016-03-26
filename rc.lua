@@ -41,7 +41,7 @@ end
 beautiful.init(awful.util.getdir("config") .. "/themes/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "termite"
+terminal = "terminator"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -229,6 +229,10 @@ globalkeys = awful.util.table.join(
             if client.focus then client.focus:raise() end
         end),
     awful.key({ modkey,           }, "w", function () mymainmenu:show() end),
+	awful.key({  }, "XF86MonBrightnessDown", function ()
+		        awful.util.spawn("xbacklight -dec 10") end),
+	awful.key({  }, "XF86MonBrightnessUp", function ()
+		        awful.util.spawn("xbacklight -inc 10") end),
 
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end),
@@ -358,7 +362,8 @@ awful.rules.rules = {
                      focus = awful.client.focus.filter,
                      raise = true,
                      keys = clientkeys,
-                     buttons = clientbuttons } },
+                     buttons = clientbuttons, 
+				 	 size_hints_honor = false} },
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
     { rule = { class = "pinentry" },
