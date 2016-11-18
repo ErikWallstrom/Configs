@@ -1,4 +1,3 @@
-
 # This file is NOT licensed under the GPLv3, which is the license for the rest
 # of YouCompleteMe.
 #
@@ -45,7 +44,7 @@ flags = [
 # a "-std=<something>".
 # For a C project, you would set this to something like 'c99' instead of
 # 'c++11'.
-'-std=c11',
+'-std=gnu11',
 '-fms-extensions',
 '-Wno-microsoft',
 # ...and the same thing goes for the magic -x option which specifies the
@@ -59,6 +58,10 @@ flags = [
 '-isystem',
 '/usr/include',
 '/usr/local/include',
+'-I/usr/include/glib-2.0',
+'-I/usr/include/gtk-3.0',
+'-I/usr/lib/glib-2.0/include',
+'-I/usr/include/vte-2.91',
 # This path will only work on OS X, but extra paths that don't exist are not
 # harmful
 '/System/Library/Frameworks/Python.framework/Headers',

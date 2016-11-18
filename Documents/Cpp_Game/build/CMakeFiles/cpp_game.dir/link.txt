@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/cpp_game.dir/Main.o  -o cpp_game -rdynamic 

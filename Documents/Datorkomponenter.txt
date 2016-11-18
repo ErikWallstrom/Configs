@@ -1,0 +1,30 @@
+Under 3000kr 
+	https://www.komplett.se/product/837101/datorutrustning/moderkort/amd-socket/asus-a68hm-plus-socket-fm2#productinfo
+	http://www.siba.se/datorkomponenter/processor/amd-a-series-a8-7650k-3-3ghz-123186
+	https://www.netonnet.se/art/komponenter/internminne/ddr3/corsair-vengeance-lp-2x4gb-1600mhz/179151.8995/
+	http://www.siba.se/datorkomponenter/ssd/hyperx-fury-ssd-120gb-123201
+	https://www.netonnet.se/art/komponenter/chassibarebone/tower/mission-sg-ggx-2-0/231686.8976/
+
+	TODO: Nätaggregat
+
+	ASUS A68HM-PLUS, Socket-FM2+ 		| Moderkort | 629kr
+	AMD A8-7650K Quad Core, 3.3ghz 		| APU		| 799kr
+	Corsair Vengeance LP 2x4GB 1600Mhz	| RAM		| 439kr
+	Kingston SSDNow UV400 120GB			| SSD		| 449kr
+	Mission SG GGX 2.0					| Chassi	| 499kr
+													  2815kr
+
+Under 8000kr
+	www.dustin.se/product/5010969768/nitro-oc
+	https://www.dustinhome.se/product/5010874424/core-i5-6500-32-ghz-processor
+	https://www.dustinhome.se/product/5010910545/ga-h110m-s2h
+	https://www.dustinhome.se/product/5010915567/hyperx-impact
+	https://www.dustinhome.se/product/5010960974/ssdnow-uv400
+	https://www.dustinhome.se/product/5010915002/gx505-window
+
+	AMD Radeon RX 480 8GB				| Grafikkort| 2599kr
+	Intel Core i5 6500 3.2GHz			| CPU		| 2199kr
+	Gigabyte GA-H110M-S2H				| Moderkort | 699kr
+	Kingston HyperX Impact 8GB 2133Mhz DDR4 | RAM 	| 699kr
+	Kingston SSDNow UV400 240GB 2.5" SATA-600 | SSD | 749kr
+	Antex Gx505 Window 					| Chassi	| 599kr
