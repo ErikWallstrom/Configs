@@ -1,8 +1,0 @@
-﻿2016-11-06 22:42:44.128640|INFO    |VirtualServer |1  |listening on 0.0.0.0:9987, :::9987
-2016-11-06 22:42:44.129004|WARNING |VirtualServer |1  |--------------------------------------------------------
-2016-11-06 22:42:44.129020|WARNING |VirtualServer |1  |ServerAdmin privilege key created, please use the line below
-2016-11-06 22:42:44.129029|WARNING |VirtualServer |1  |token=Itbt0cPXptQDWB27BK50V54BFz6SJx6ujpCrxntG
-2016-11-06 22:42:44.129037|WARNING |VirtualServer |1  |--------------------------------------------------------
-2016-11-06 22:47:01.753335|INFO    |VirtualServer |1  |client (id:2) was added to servergroup 'Server Admin'(id:6) by client 'server'(id:0)
-2016-11-06 22:47:01.764592|INFO    |VirtualServer |1  |client 'ErikProW'(id:2) used privilege key 'Itbt0cPXptQDWB27BK50V54BFz6SJx6ujpCrxntG' and was added to servergroup 'Server Admin'(id:6)
-2016-11-06 22:50:39.437168|INFO    |VirtualServerBase|1  |stopped

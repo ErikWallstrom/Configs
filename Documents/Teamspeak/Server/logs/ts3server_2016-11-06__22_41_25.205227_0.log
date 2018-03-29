@@ -1,5 +1,0 @@
-﻿2016-11-06 22:41:25.205266|INFO    |ServerLibPriv |   |TeamSpeak 3 Server 3.0.13.5 (2016-10-24 11:53:53)
-2016-11-06 22:41:25.205321|INFO    |ServerLibPriv |   |SystemInformation: Linux 4.4.0-45-generic #66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016 x86_64 Binary: 64bit
-2016-11-06 22:41:25.205343|INFO    |ServerLibPriv |   |Using hardware aes
-2016-11-06 22:41:25.205442|INFO    |DatabaseQuery |   |Please make sure you use the supplied ts3server_minimal_runscript.sh to run the server, or set LD_LIBRARY_PATH yourself
-2016-11-06 22:41:25.205465|CRITICAL|DatabaseQuery |   |unable to load database plugin library "libts3db_sqlite3.so", halting!
