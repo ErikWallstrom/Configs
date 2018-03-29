@@ -62,6 +62,12 @@ flags = [
 '-I/usr/include/gtk-3.0',
 '-I/usr/lib/glib-2.0/include',
 '-I/usr/include/vte-2.91',
+'-I/usr/include/webkitgtk-4.0',
+'-I/usr/include/gdk-pixbuf-2.0',
+'-I/usr/include/gtksourceview-3.0/',
+'-I/usr/include/json-glib-1.0',
+'-I/usr/include/glib-2.0',
+'-I/usr/lib/glib-2.0/include',
 # This path will only work on OS X, but extra paths that don't exist are not
 # harmful
 '/System/Library/Frameworks/Python.framework/Headers',
